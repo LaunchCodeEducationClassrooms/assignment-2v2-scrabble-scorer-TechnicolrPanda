@@ -117,7 +117,7 @@ function transform(obj) {
 
     let i = 0
     while (i < word.length) {
-      newObj[word[i]] = key
+      newObj[word[i]] = Number(key)
       i++
     }
   }
